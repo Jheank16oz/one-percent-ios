@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "First Goal"; ObjectID = "EWw-Qf-biO"; */
+"EWw-Qf-biO.text" = "First Goal";
+
+/* Class = "UIButton"; configuration.title = "Display Goals"; ObjectID = "zVK-if-jik"; */
+"zVK-if-jik.configuration.title" = "Display Goals";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "zVK-if-jik"; */
+"zVK-if-jik.normalTitle" = "Button";
