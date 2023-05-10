@@ -2,11 +2,10 @@
 //  OnePercentTests.swift
 //  OnePercentTests
 //
-//  Created by Jhean Carlos Pineros Diaz on 13/04/23.
+//  Created by Jhean Carlos Pineros Diaz on 28/04/23.
 //
 
 import XCTest
-@testable import OnePercent
 
 final class OnePercentTests: XCTestCase {
 
@@ -28,7 +27,7 @@ final class OnePercentTests: XCTestCase {
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
-        self.measure {
+        measure {
             // Put the code you want to measure the time of here.
         }
     }
