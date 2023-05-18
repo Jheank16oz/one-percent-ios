@@ -11,7 +11,9 @@
 		765F2E6229E8ADCE002B90F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765F2E6129E8ADCE002B90F4 /* SceneDelegate.swift */; };
 		765F2E6929E8ADD0002B90F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 765F2E6829E8ADD0002B90F4 /* Assets.xcassets */; };
 		765F2E6C29E8ADD0002B90F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 765F2E6A29E8ADD0002B90F4 /* LaunchScreen.storyboard */; };
-		76DD37B329FBFFEA0083AAAE /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DD37B229FBFFEA0083AAAE /* HomeVC.swift */; };
+		768435F22A126A5D005C3ADF /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768435F02A126A5D005C3ADF /* HomeVC.swift */; };
+		768435F32A126A5D005C3ADF /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 768435F12A126A5D005C3ADF /* HomeVC.xib */; };
+		769E8EE32A0BD814009D848B /* HomeVIewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769E8EE22A0BD814009D848B /* HomeVIewModel.swift */; };
 		76DD37B529FC01C60083AAAE /* MainNC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DD37B429FC01C60083AAAE /* MainNC.swift */; };
 		76DD37C329FC955A0083AAAE /* OnePercentDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 76DD37C129FC955A0083AAAE /* OnePercentDataModel.xcdatamodeld */; };
 		76DD37D829FCA9280083AAAE /* OnePercentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DD37D729FCA9280083AAAE /* OnePercentTests.swift */; };
@@ -52,7 +54,9 @@
 		765F2E6829E8ADD0002B90F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		765F2E6B29E8ADD0002B90F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		765F2E6D29E8ADD0002B90F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		76DD37B229FBFFEA0083AAAE /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		768435F02A126A5D005C3ADF /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		768435F12A126A5D005C3ADF /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		769E8EE22A0BD814009D848B /* HomeVIewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVIewModel.swift; sourceTree = "<group>"; };
 		76DD37B429FC01C60083AAAE /* MainNC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNC.swift; sourceTree = "<group>"; };
 		76DD37C229FC955A0083AAAE /* OnePercentDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OnePercentDataModel.xcdatamodel; sourceTree = "<group>"; };
 		76DD37C429FC960B0083AAAE /* OnePercent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OnePercent.entitlements; sourceTree = "<group>"; };
@@ -108,11 +112,13 @@
 				76DD37B629FC02110083AAAE /* delegate */,
 				765F2E6829E8ADD0002B90F4 /* Assets.xcassets */,
 				765F2E6A29E8ADD0002B90F4 /* LaunchScreen.storyboard */,
-				76DD37B229FBFFEA0083AAAE /* HomeVC.swift */,
+				769E8EE22A0BD814009D848B /* HomeVIewModel.swift */,
 				76DD37B429FC01C60083AAAE /* MainNC.swift */,
 				765F2E6D29E8ADD0002B90F4 /* Info.plist */,
 				76DD37C129FC955A0083AAAE /* OnePercentDataModel.xcdatamodeld */,
 				76DD37C829FCA26A0083AAAE /* CoreDataGoalsRepository.swift */,
+				768435F02A126A5D005C3ADF /* HomeVC.swift */,
+				768435F12A126A5D005C3ADF /* HomeVC.xib */,
 			);
 			path = OnePercent;
 			sourceTree = "<group>";
@@ -226,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				765F2E6C29E8ADD0002B90F4 /* LaunchScreen.storyboard in Resources */,
+				768435F32A126A5D005C3ADF /* HomeVC.xib in Resources */,
 				765F2E6929E8ADD0002B90F4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,12 +251,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76DD37B329FBFFEA0083AAAE /* HomeVC.swift in Sources */,
 				765F2E6029E8ADCE002B90F4 /* AppDelegate.swift in Sources */,
+				768435F22A126A5D005C3ADF /* HomeVC.swift in Sources */,
 				76DD37B529FC01C60083AAAE /* MainNC.swift in Sources */,
 				76DD37DF29FCA9380083AAAE /* CoreDataGoalsRepository.swift in Sources */,
 				765F2E6229E8ADCE002B90F4 /* SceneDelegate.swift in Sources */,
 				76DD37C329FC955A0083AAAE /* OnePercentDataModel.xcdatamodeld in Sources */,
+				769E8EE32A0BD814009D848B /* HomeVIewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
